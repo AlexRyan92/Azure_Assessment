@@ -1,0 +1,66 @@
+General Overview:
+
+1.	What is the purpose of this Azure subscription? What services and resources are being used?
+2.	Are there any specific goals or requirements for this subscription?
+3.	What are the critical applications or workloads hosted in this subscription?
+4.	Who are the stakeholders and users of this subscription?
+
+
+Security and Compliance: 
+
+5.	Are RBAC roles appropriately assigned to users and groups?
+6.	Are there any unauthorized or unnecessary users with elevated permissions?
+7.	Is Azure Multi-Factor Authentication (MFA) enforced for privileged users?
+8.	Are network security groups (NSGs) properly configured to restrict traffic?
+9.	Are firewalls and virtual networks appropriately configured to control access to resources?
+10.	Is encryption (data at rest and in transit) being used for sensitive data?
+11.	Are resources patched and updated regularly?
+12.	Are there any security vulnerabilities identified in vulnerability assessments?
+
+
+Cost Optimization: 
+
+13.	Are resources properly tagged for cost allocation and tracking?
+14.	Are there underutilized or idle resources that can be deprovisioned?
+15.	Are Azure Reserved Instances or Savings Plans being utilized for cost savings?
+16.	Are there any cost spikes or anomalies that need investigation?
+17.	Are autoscaling policies in place to optimize resource usage?
+18.	Are cost alerts set up to notify for budget overruns?
+
+
+Performance and Availability: 
+
+19.	Are resources distributed across availability zones or fault domains for high availability?
+20.	Are monitoring and logging enabled for key resources?
+21.	Are there any performance bottlenecks identified in monitoring data?
+22.	Are there any latency or connectivity issues reported by end-users?
+23.	Are backup and disaster recovery plans in place and tested?
+
+
+Resource Management: 
+
+24.	Are resources organized in a logical manner using resource groups and naming conventions?
+25.	Are there any orphaned resources that need to be cleaned up?
+26.	Is there a version control system for infrastructure as code (ARM templates) and scripts?
+27.	Are Azure Policy definitions in place to enforce compliance rules?
+
+
+Azure Services Usage: 
+
+28.	Are Azure services being used in line with their intended purposes?
+29.	Are there any non-compliant services or features being used?
+30.	Are there any new Azure services that can be adopted for optimization?
+
+
+Documentation and Training: 
+
+31.	Is there up-to-date documentation for architecture, configurations, and procedures?
+32.	Are team members trained in Azure best practices, security measures, and cost management?
+33.	Is there a process to update documentation as changes are made?
+
+
+Future Plans and Roadmap:
+
+34.	What are the upcoming projects or changes planned for this subscription?
+35.	Are there any upcoming compliance or security requirements that need to be addressed?
+
