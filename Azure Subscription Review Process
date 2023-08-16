@@ -1,0 +1,31 @@
+Reviewing Azure subscriptions and reporting back findings of misconfigurations or errors is an important task to ensure the security, performance, and cost-efficiency of your cloud resources. Here are the best practices to follow for such a review:
+
+1.	Define Review Scope and Goals: Clearly define the scope of your review. Are you focusing on security, cost optimization, performance, or a combination of these? Set specific goals for the review to keep it focused and actionable.
+
+2.	Use Azure Policy and Azure Security Center: Leverage Azure Policy and Azure Security Center to define and enforce compliance rules and security best practices. These tools can help identify misconfigurations and non-compliant resources.
+
+3.	Implement Tagging and Categorization: Encourage or enforce the use of consistent resource tagging to easily categorize resources. This helps in cost allocation, tracking, and identification of resources during the review.
+
+4.	Regularly Review Access Controls: Ensure that role-based access control (RBAC) is properly configured for resources and that users have the appropriate permissions. Regularly review and update access controls based on changes in your organization.
+
+5.	Check Resource Configuration: Review resource configurations against best practices. This includes reviewing network settings, encryption settings, backup configurations, and more.
+
+6.	Review Security Center Recommendations: Azure Security Center provides recommendations to improve the security of your resources. Regularly review and act on these recommendations.
+
+7.	Audit Logging and Monitoring: Enable Azure Monitor and Azure Security Center's threat detection features to monitor activities and detect potential security threats. Review logs and alerts to identify any unusual activities.
+
+8.	Cost Optimization Review: Regularly assess your resource usage and spending. Use Azure Cost Management and Billing to identify unused or underutilized resources and optimize your spending.
+
+9.	Utilize Azure Advisor: Azure Advisor provides personalized recommendations to help optimize your Azure resources for performance, high availability, security, and cost. Review and implement its recommendations.
+
+10.	Conduct Vulnerability Assessments: Run periodic vulnerability assessments on your virtual machines and other resources to identify potential security weaknesses or outdated software.
+
+11.	Documentation and Reporting: Maintain clear documentation of your review process, findings, and actions taken. This documentation will be useful for accountability, tracking progress, and future reference.
+
+12.	Automation and Scripting: Consider using Azure Resource Manager (ARM) templates and scripts to enforce consistent configurations and automate routine review tasks.
+
+13.	Continuous Improvement: Review your review process itself periodically. Are there any new best practices or tools available? Keep adapting and improving your review process to stay aligned with the evolving Azure ecosystem.
+
+14.	Involve Stakeholders: Collaborate with different teams in your organization to ensure that the review covers all aspects, and gather insights from those who work directly with the resources.
+
+15.	Training and Awareness: Continuously educate your teams about Azure best practices, security measures, and cost management to prevent future misconfigurations.
