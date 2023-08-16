@@ -1,0 +1,27 @@
+1.	Azure Policy & Azure Security Center:
+These tools help enforce compliance and security best practices. They can automatically assess your resources against predefined policies and provide recommendations to address misconfigurations.
+
+2.	Azure Advisor:
+Azure Advisor provides personalized recommendations for performance, availability, security, and cost optimization. It analyzes your Azure usage patterns and suggests improvements.
+
+3.	Azure Monitor and Azure Log Analytics:
+These tools provide comprehensive monitoring and logging capabilities. You can set up alerts, create custom queries, and analyze performance data to identify issues and trends.
+
+4.	Azure Cost Management and Billing:
+This tool helps you manage and optimize costs. It provides insights into spending patterns, cost allocation, and budget tracking.
+
+5.	Azure Resource Graph:
+Azure Resource Graph allows you to query and explore your Azure resources at scale. It can help you gather information for assessment purposes.
+
+6.	Azure Automanage:
+This extension of Azure Policy allows you to assess the compliance of virtual machines against specific security configurations. It's useful for ensuring VMs are properly configured.
+
+7.	Azure DevOps and GitHub:
+These platforms can help with version control, automated deployment, and infrastructure as code management, making it easier to track changes and enforce best practices.
+
+8.	Azure Automation:
+You can use Azure Automation to create and manage runbooks that perform routine tasks and assessments. This can be particularly helpful for automating checks and reports.
+
+9.	Custom Scripting and Automation:
+Depending on your specific needs, you can create custom scripts using PowerShell, Azure CLI, or other scripting languages to automate various assessment tasks.
+
